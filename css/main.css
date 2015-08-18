@@ -1,0 +1,101 @@
+.row {
+	max-width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10% 0;
+}
+
+body p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	color: #59614b;
+}
+
+body h1, body h2, nav {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+}
+
+header {
+	background-color: #27272f;
+	overflow: auto;
+	zoom: 1;
+	width: 100%;
+	padding: 1% 0 1% 0;
+}
+
+header h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 1.25em;
+	color: #ffffff;
+	text-align: left;
+	margin: 1% 4%;
+}
+
+header img {
+	width: 4%;
+	margin: 1% 4%;
+	float: right;
+}
+
+fieldset {
+	margin: 0 auto;
+}
+
+.row {
+	margin: 0 auto;
+}
+
+.headline-content img {
+	width: 300px;
+}
+
+footer {
+	background-color: #27272f;
+	width: 100%;
+	padding: 1% 0 1% 0;
+}
+
+footer p {
+	margin: 1% 4%;
+}
+
+.rotating-text {
+	display: inline-block;
+	width: 100%;
+}
+
+.hidden {
+	display: inline-block none;
+}
+
+@media only screen and (max-width: 640px) {
+	.headline-text {
+		font-size: 1.25em;
+	}
+	fieldset input {
+		width: 20%;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	header h2 {
+		font-size: .75em;
+	}
+	.headline-text {
+		font-size: 1em;
+	}
+	.headline-content img {
+		width: 200px;
+	}
+	fieldset input {
+		width: 50%;
+		margin: 0 auto;
+	}
+	footer p {
+		margin: 2%;
+		font-size: .75em;
+	}
+}
